@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding: 0;
+    /* background-color: rgb(253, 251, 248); */
+}
+/* .................................................................navbar Code */
+
+.nav_bar{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(243, 238, 238);
+    z-index: 2;
+}
+
+.m{
+    padding:0px 50px;
+    border-right: 2px solid gray;
+}
+.n{
+    padding: 0px 50px;
+}
+.nav_list{
+    list-style-type:none;
+    display: flex;
+}
+
+.nav_list li{
+    padding: 20px;
+    font-size: 18px;
+}
+.li{
+    margin-top: 18px;
+}
+.lli{
+    margin-top: 5px;
+}
+.button{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 5px;
+    border: 2px solid blue;
+    border-radius: 15%;
+    padding: 5px 25px;
+    color:blue;
+}
+
+/* ........................................................................................header code */
+
+.blue{
+    position: relative;
+    top: 100px;
+    background-color: blue;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+}
+i{
+    color: black;
+}
+.blue{
+    color: white;
+    padding: 10px;
+
+}
+/* .................................................................................. */
+header{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.header_div1{
+margin: 50px;
+
+}
+.features_div{
+    background-color: white;
+    border: 1px solid rgb(65, 62, 62);
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(165, 163, 163);
+}
+.header_h1{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family:'Times New Roman', Times, serif;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.l1{
+    padding: 0px 50px;
+    
+    list-style-image: url(./images/icon1.png);
+}
+.l2{
+    
+    padding: 0px 30px;
+    list-style-image: url(./images/icon2.png);
+}
+.l3{
+    padding: 0px 30px;
+    list-style-image: url(./images/icon3.png);
+}
+.l4{
+    padding: 0px 20px;
+    list-style-image: url(./images/icon4.png);
+}
+.rams{
+    margin-top: 90px;
+    background-color: rgb(253, 251, 248);
+    border-radius: 30px;
+    width: 290px;
+    font-size: 20px;
+    padding: 5px 2px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(158, 156, 156);
+}
+.header_div2{
+    background-color: white;
+    width: 320px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 1px 1px 35px rgb(99, 98, 98);
+    height: 400px;
+}
+/* .........................................................Section Code */
+.section1{
+    position: relative;
+    width: 100vw;
+    top: 100px;
+    background-color: rgb(192, 238, 212);
+    padding: 50px;
+}
+.s1h3,.s1h2{
+    text-align: center;
+}
+.forms_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    width: 450px;
+    height: 570px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 2px solid blue;
+}
+
+.legend{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    position: relative;
+    bottom:40px;
+    left: 70px;
+}
+.form2{
+    width: 450px;
+    height: 570px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+table{
+    width: 400px;
+    height: 280px;
+    background-color:white;
+}
+tr{
+    width: 400px;
+    border-bottom: 2px black;
+}
+td{
+    width: 200px;
+}
+
+/* ...............................................................Section2 */
+.section2{
+    position: relative;
+    top:100px;
+    padding: 50px;
+}
+/* ................................................Section3 */
+.section3{
+    position: relative;
+    top: 00px;
+    padding: 100px;
+}
+.s3div1{
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(195, 191, 191);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgb(142, 138, 138);
+}
+
+.s3div2{
+    width: 400px;
+    height: 450px;
+    border: 2px solid rgb(195, 191, 191);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgb(142, 138, 138);
+}
+
+.s3li1{
+    list-style-image: url(./images/liImg1.png);
+    list-style-position: inside;
+}
+.s3li2{
+    list-style-image: url(./images/liImg2.png);
+    list-style-position: inside;
+}
+
+.s3li3{
+    list-style-image: url(./images/liImg3.png);
+    list-style-position: inside;
+}
+
+.s3li4{
+    list-style-image: url(./images/liImg4.png);
+    list-style-position: inside;
+}
+
+.s3li5{
+    list-style-image: url(./images/liImg5.png);
+    list-style-position: inside;
+}
+
+.s3li6{
+    list-style-image: url(./images/liImg6.png);
+    list-style-position: inside;
+}
+
+
+/* ...................................................Responsive Design */
+@media screen and(min-width:600px){
+    .nav_list{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+   .nav_list{
+    display: none;
+   }
+    .icon{
+        display: block;
+    }
+    
+    
+}
